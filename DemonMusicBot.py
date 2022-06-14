@@ -33,7 +33,7 @@ def start(client, message):
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/Botsinator'),
+                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/Rahid_44'),
                     InlineKeyboardButton('Playlist 🎵', url=f'https://t.me/{Config.PLAYLIST_NAME}')
                   ],[
                     InlineKeyboardButton('Sahib 👨🏻‍💻', url=f'T.me/{Config.BOT_OWNER}')
@@ -52,7 +52,7 @@ def help(client, message):
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/Botsinator'),
+                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/Rahid_44'),
                     InlineKeyboardButton('Playlist 🎵', url=f'https://t.me/{Config.PLAYLIST_NAME}')
                   ],[
                     InlineKeyboardButton('Sahib 👨🏻‍💻', url=f'T.me/{Config.BOT_OWNER}')
@@ -97,11 +97,11 @@ def a(client, message):
 
         except Exception as e:
             print(e)
-            m.edit('İstədiyiniz musiqi tapılmadı 😔')
+            m.edit('İstədiyiniz musiqi tapılmadı😐')
             return
     except Exception as e:
         m.edit(
-            "İstədiyiniz musiqi tapılmadı 😔"
+            "İstədiyiniz musiqi tapılmadı😐"
         )
         print(str(e))
         return

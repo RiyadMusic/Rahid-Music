@@ -55,7 +55,7 @@ def help(client, message):
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/Karabakh2907'),
+                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/sohbetmekani777'),
                     InlineKeyboardButton('Playlist 🎵', url=f'https://t.me/{Config.PLAYLIST_NAME}')
                   ],[
                     InlineKeyboardButton('Sahib 👨🏻‍💻', url=f'T.me/{Config.BOT_OWNER}')
